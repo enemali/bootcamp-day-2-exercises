@@ -1,7 +1,9 @@
 
-a = 0
 
-"ikechuyeremefuna".each_char do |i|
-  a = a + 1
-  puts "#{a} " + i.upcase
+name = "ikechuyeremefuna"
+i = 0
+while i < name.length  do
+puts "#{i + 1} #{name[i].upcase}"
+ i+=1
 end
+
