@@ -1,4 +1,7 @@
 
+a = 0
+
 "ikechuyeremefuna".each_char do |i|
-  puts i.upcase
+  a = a + 1
+  puts "#{a} " + i.upcase
 end
