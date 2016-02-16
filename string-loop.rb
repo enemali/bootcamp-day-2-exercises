@@ -1,4 +1,4 @@
 
 "ikechuyeremefuna".each_char do |i|
-  puts i
+  puts i.upcase
 end
